@@ -1,5 +1,6 @@
 # 🎵 Spotify Clone
 https://spotify-clone-alpha-eight-40.vercel.app/
+
 A modern music streaming web application inspired by Spotify. Built with React, Redux Toolkit, and Shazam Core API, it allows users to explore top charts, play music, search by artist or genre, and discover trending tracks globally or locally. This is my internship assignment of Celebal.
 
 ---
