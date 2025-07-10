@@ -9,12 +9,17 @@ const CountryTracks = () => {
   const [country, setCountry] = useState('');
   const [loading, setLoading] = useState(true);
   const { activeSong, isPlaying } = useSelector((state) => state.player);
-  const { data, isFetching, error } = useGetSongsByCountryQuery(country);
+  console.log('Current country:', country);
+  const { data, isFetching, error } = useGetSongsByCountryQuery('IN');
+  console.log('Skip query:', country === '');
 
   useEffect(() => {
     axios
       .get(`https://geo.ipify.org/api/v2/country?apiKey=${import.meta.env.VITE_GEO_API_KEY}`)
-      .then((res) => setCountry(res?.data?.location.country))
+      .then((res) => {
+      console.log('GEO response:', res.data);
+      setCountry(res?.data?.location?.country);
+    })
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, [country]);

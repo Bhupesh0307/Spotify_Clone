@@ -1,7 +1,31 @@
-# Build and Deploy a Better Spotify 2.0 Clone Music App with React 18! (Tailwind, Shazam, Redux)
-![Spotify Clone](https://i.ibb.co/mFh2kGZ/Thumbnail-2.png)
+# 🎵 Spotify Clone
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+A modern music streaming web application inspired by Spotify. Built with React, Redux Toolkit, and Shazam Core API, it allows users to explore top charts, play music, search by artist or genre, and discover trending tracks globally or locally. This is my internship assignment of Celebal.
 
-### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
+---
+
+## 🚀 Features
+
+- 🔥 Discover Top Charts
+- 🌍 Browse Songs by Country (using Geo IP detection)
+- 🎧 Play/Pause Music with Active Song Tracking
+- 🔎 Search Songs and Artists
+- 🎵 Explore by Genre
+- ⚡ Seamless UI with TailwindCSS
+- 🛠️ State management with Redux Toolkit + RTK Query
+
+
+---
+
+## 🧪 Tech Stack
+
+- **Frontend:** React, TailwindCSS
+- **State Management:** Redux Toolkit
+- **Data Fetching:** RTK Query
+- **APIs:**
+  - [Shazam Core API](https://rapidapi.com/GroupDev/api/shazam-core/)
+  - [Geo IP API](https://geo.ipify.org/)
+- **Icons:** React Icons
+- **Audio Playback:** HTML5 Audio API
+
+
